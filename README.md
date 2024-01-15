@@ -1,1 +1,1 @@
-READNE
+README
