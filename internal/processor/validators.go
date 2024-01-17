@@ -92,7 +92,7 @@ func validatePngImageDimensionForCI(path string) error {
 	}
 
 	if imgWidth > config.Default.ValidatorsSettings.Image.MaxW || imgHeight > config.Default.ValidatorsSettings.Image.MaxH || imgWidth < config.Default.ValidatorsSettings.Image.MinW || imgHeight < config.Default.ValidatorsSettings.Image.MinH || imgWidth != imgHeight {
-		return fmt.Errorf("%w: max - %dx%d, min - %dx%d; given %dx%d",
+		return fmt.Errorf("%s: max - %dx%d, min - %dx%d; given %dx%d",
 			"invalid file dimension", config.Default.ValidatorsSettings.Image.MaxW, config.Default.ValidatorsSettings.Image.MaxH, config.Default.ValidatorsSettings.Image.MinW, config.Default.ValidatorsSettings.Image.MinH, imgWidth, imgHeight)
 	}
 
