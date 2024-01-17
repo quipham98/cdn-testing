@@ -63,10 +63,6 @@ linters-settings:
     # Select the Go version to target
     lang-version: "1.18"
     extra-rules: false
-  goimports:
-    # put imports beginning with prefix after 3rd-party packages;
-    # it's a comma-separated list of prefixes
-    local-prefixes: github.com/quipham98,github.com/trustwallet
   gomnd:
     settings:
       mnd:
@@ -225,7 +221,6 @@ linters:
     - gocritic
     - gocyclo
     - gofmt
-    - goimports
     # - gomnd
     - goprintffuncname
     - gosec
