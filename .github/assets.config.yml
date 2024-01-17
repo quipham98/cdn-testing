@@ -1,0 +1,40 @@
+app:
+  log_level: "debug"
+
+validators_settings:
+  root_folder:
+    allowed_files:
+      - ".github"
+      - "blockchains"
+      - ".gitignore"
+      - "LICENSE"
+      - "README.md"
+      - ".git"
+      - "cmd"
+      - "internal"
+      - "go.mod"
+      - "go.sum"
+      - ".golangci.yml"
+      - "Makefile"
+      - "bin"
+      - "pull_request_template.md"
+    skip_files:
+      - "node_modules"
+    skip_dirs:
+      - ".git"
+
+  asset_folder:
+    allowed_files:
+      - "logo.png"
+      - "info.json"
+
+  chain_info_folder:
+    has_files:
+      - "logo.png"
+      - "info.json"
+
+  image:
+    max_w: 160
+    max_h: 160
+    min_w: 60
+    min_h: 60
