@@ -155,7 +155,7 @@ linters-settings:
     checks: [ "all" ]
   stylecheck:
     # Select the Go version to target
-    go: "1.18"
+    go: "1.21.4"
     # https://staticcheck.io/docs/options#checks
     checks: [ "all", "-ST1000", "-ST1003", "-ST1016", "-ST1020", "-ST1021", "-ST1022" ]
     # https://staticcheck.io/docs/options#dot_import_whitelist
@@ -184,7 +184,13 @@ linters-settings:
     force-err-cuddling: false
     force-short-decl-cuddling: false
     strict-append: true
-
+  depguard:
+    list-type: "whitelist"
+    include-go-root: true
+    packages:
+      - "github.com/quipham98/cdn-testing/*",
+      - "github.com/trustwallet/assets-go-libs/*",
+      - "github.com/trustwallet/go-primitives/*",
 linters:
   disable-all: true
   enable:
