@@ -167,7 +167,7 @@ linters-settings:
     http-status-code-whitelist: [ "200", "400", "404", "500" ]
   unused:
     # Select the Go version to target
-    go: "1.18"
+    go: "1.21.4"
   whitespace:
     multi-if: true   # Enforces newlines (or comments) after every multi-line if statement
     multi-func: false # Enforces newlines (or comments) after every multi-line function signature
