@@ -23,6 +23,12 @@ validators_settings:
     skip_dirs:
       - ".git"
 
+  chain_folder:
+    allowed_files:
+      - "assets"
+      - "validators"
+      - "info"
+
   asset_folder:
     allowed_files:
       - "logo.png"
