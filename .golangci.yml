@@ -66,7 +66,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/trustwallet
+    local-prefixes: github.com/quipham98
   gomnd:
     settings:
       mnd:
@@ -201,6 +201,7 @@ linters-settings:
           - $gostd
           - github.com/quipham98
           - github.com/trustwallet
+          - github.com/sirupsen/logrus
         # Packages that are not allowed where the value is a suggestion.
 #        deny:
 #          - pkg: "github.com/sirupsen/logrus"
@@ -230,7 +231,6 @@ linters:
     - gosimple
     - govet
     - ineffassign
-    - lll
     - misspell
     - nakedret
     - noctx

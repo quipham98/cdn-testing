@@ -3,11 +3,11 @@ package processor
 import (
 	"bytes"
 	"fmt"
-	"github.com/trustwallet/assets-go-libs/image"
 	"os"
 
 	"github.com/quipham98/cdn-testing/internal/config"
 	"github.com/trustwallet/assets-go-libs/file"
+	"github.com/trustwallet/assets-go-libs/image"
 	"github.com/trustwallet/assets-go-libs/path"
 	"github.com/trustwallet/assets-go-libs/validation"
 	"github.com/trustwallet/assets-go-libs/validation/info"
