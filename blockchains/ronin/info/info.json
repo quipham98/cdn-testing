@@ -1,19 +1,19 @@
 {
-  "name": "Ronin",
-  "website": "https://www.xcelpay.io",
-  "description": "RONIN",
-  "type": "ERC20",
-  "symbol": "XLD",
-  "decimals": 18,
-  "status": "active",
-  "id": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
-  "links": [
-    {
-      "name": "github",
-      "url": "https://github.com/axieinfinity/"
-    },
-  ],
-  "tags": [
+    "name": "Ronin",
+    "website": "https://www.xcelpay.io",
+    "description": "RONIN",
+    "type": "ERC20",
+    "symbol": "XLD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/axieinfinity/"
+        }
+    ],
+    "tags": [
         "gamefi"
     ]
 }
