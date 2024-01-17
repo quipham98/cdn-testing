@@ -2,12 +2,12 @@ package service
 
 import (
 	"errors"
+
 	"github.com/quipham98/cdn-testing/internal/processor"
 	"github.com/quipham98/cdn-testing/internal/report"
+	log "github.com/sirupsen/logrus"
 	"github.com/trustwallet/assets-go-libs/file"
 	"github.com/trustwallet/assets-go-libs/validation"
-
-	log "github.com/sirupsen/logrus"
 )
 
 type Service struct {
