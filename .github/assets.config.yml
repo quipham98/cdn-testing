@@ -17,6 +17,7 @@ validators_settings:
       - ".golangci.yml"
       - "Makefile"
       - "bin"
+      - "pull_request_template.md"
     skip_files:
       - "node_modules"
     skip_dirs:
