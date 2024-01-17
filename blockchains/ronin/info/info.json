@@ -1,7 +1,7 @@
 {
   "name": "Ronin",
   "website": "https://www.xcelpay.io",
-  "description": "RONIN"
+  "description": "RONIN",
   "type": "ERC20",
   "symbol": "XLD",
   "decimals": 18,
