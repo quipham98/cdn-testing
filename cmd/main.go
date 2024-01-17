@@ -1,4 +1,4 @@
-package cmd
+package main
 
 import "github.com/quipham98/cdn-testing/internal/manager"
 
