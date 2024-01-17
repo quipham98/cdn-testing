@@ -19,8 +19,6 @@ github.com/magiconair/properties v1.8.5 h1:b6kJs+EmPFMYGkow9GiUyCyOvIwYetYJ3fSaW
 github.com/magiconair/properties v1.8.5/go.mod h1:y3VJvCyxH9uVvJTWEGAELF3aiYNyPKd5NZ3oSwXrF60=
 github.com/mitchellh/mapstructure v1.4.3 h1:OVowDSCllw/YjdLkam3/sm7wEtOy59d8ndGgCcyj8cs=
 github.com/mitchellh/mapstructure v1.4.3/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RRV2QTWOzhPopBRo=
-github.com/patrickmn/go-cache v2.1.0+incompatible h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=
-github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTKqZju1ZixQ/KpMGzzAfe6+WQ=
 github.com/pelletier/go-toml v1.9.4 h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM=
 github.com/pelletier/go-toml v1.9.4/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCkoOuaOx1Y+c=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
@@ -51,8 +49,6 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/subosito/gotenv v1.2.0 h1:Slr1R9HxAlEKefgq5jn9U+DnETlIUa6HfgEzj0g5d7s=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
-github.com/trustwallet/assets v0.0.0-20220930001034-0c547a6aebf9 h1:Hvvq4wNkOVVnBB8bM96j/DG5jdeqyLA/UO/L51dKWbI=
-github.com/trustwallet/assets v0.0.0-20220930001034-0c547a6aebf9/go.mod h1:K18t6Fq+tH2aGUNgH2U0LDifO1WeN9dE/+GfD8D4jxA=
 github.com/trustwallet/assets-go-libs v0.3.7 h1:i33k7eD1DFG+0mRFkXhB3qjTJPb87KkBi+4W/QAMvxI=
 github.com/trustwallet/assets-go-libs v0.3.7/go.mod h1:4BokTTw6UBPEsyXv8jHmX07bKECLcDbzX8YnIBNrCg8=
 github.com/trustwallet/go-libs v0.3.13 h1:zB30WfP6Do+5Cf3+HgkUhawBf1fnOdvvC/eBfCHKBEw=
