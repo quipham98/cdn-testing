@@ -185,12 +185,28 @@ linters-settings:
     force-short-decl-cuddling: false
     strict-append: true
   depguard:
-    list-type: "whitelist"
-    include-go-root: true
-    packages:
-      - "github.com/quipham98/cdn-testing/*",
-      - "github.com/trustwallet/assets-go-libs/*",
-      - "github.com/trustwallet/go-primitives/*",
+    rules:
+      # Name of a rule.
+      main:
+        # Used to determine the package matching priority.
+        # There are three different modes: `original`, `strict`, and `lax`.
+        # Default: "original"
+        list-mode: lax
+        # List of file globs that will match this list of settings to compare against.
+        # Default: $all
+#        files:
+#          - "!**/*_a _file.go"
+        # List of allowed packages.
+        allow:
+          - $gostd
+          - github.com/quipham98
+          - github.com/trustwallet
+        # Packages that are not allowed where the value is a suggestion.
+#        deny:
+#          - pkg: "github.com/sirupsen/logrus"
+#            desc: not allowed
+#          - pkg: "github.com/pkg/errors"
+#            desc: Should be replaced by standard lib errors package
 linters:
   disable-all: true
   enable:
