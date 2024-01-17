@@ -1,16 +1,16 @@
 package manager
 
 import (
+	"os"
+	"strings"
+
 	"github.com/quipham98/cdn-testing/internal/config"
 	"github.com/quipham98/cdn-testing/internal/processor"
 	"github.com/quipham98/cdn-testing/internal/report"
 	"github.com/quipham98/cdn-testing/internal/service"
+	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/trustwallet/assets-go-libs/file"
-	"os"
-	"strings"
-
-	log "github.com/sirupsen/logrus"
 )
 
 var configPath, root string

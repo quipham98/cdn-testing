@@ -1,8 +1,9 @@
 package config
 
 import (
-	"github.com/trustwallet/go-libs/config/viper"
 	"path/filepath"
+
+	"github.com/trustwallet/go-libs/config/viper"
 )
 
 type (
