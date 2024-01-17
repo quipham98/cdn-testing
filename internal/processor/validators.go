@@ -11,7 +11,6 @@ import (
 	"github.com/trustwallet/assets-go-libs/path"
 	"github.com/trustwallet/assets-go-libs/validation"
 	"github.com/trustwallet/assets-go-libs/validation/info"
-	"github.com/trustwallet/go-primitives/coin"
 )
 
 func (s *Service) ValidateJSON(f *file.AssetFile) error {
@@ -157,23 +156,6 @@ func (s *Service) ValidateAssetFolder(f *file.AssetFile) error {
 
 	if compErr.Len() > 0 {
 		return compErr
-	}
-
-	return nil
-}
-
-func (s *Service) ValidateAssetInfoFile(f *file.AssetFile) error {
-	var assetInfo info.AssetModel
-	if err := file.ReadJSONFile(f.Path(), &assetInfo); err != nil {
-		return err
-	}
-
-	// https://github.com/trustwallet/backend/issues/2561
-	if f.Chain() != coin.Cryptoorg() && f.Chain() != coin.Cronos() {
-		err := info.ValidateAsset(assetInfo, f.Chain(), f.Asset())
-		if err != nil {
-			return err
-		}
 	}
 
 	return nil

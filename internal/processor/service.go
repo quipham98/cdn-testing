@@ -15,8 +15,6 @@ func NewService(fileProvider *file.Service) *Service {
 }
 
 func (s *Service) GetValidator(f *file.AssetFile) []Validator {
-	jsonValidator := Validator{Name: "JSON validation", Run: s.ValidateJSON}
-
 	switch f.Type() {
 	case file.TypeAssetFolder:
 		return []Validator{
@@ -35,14 +33,9 @@ func (s *Service) GetValidator(f *file.AssetFile) []Validator {
 			{Name: "Root folder contains only allowed files", Run: s.ValidateRootFolder},
 		}
 
-	case file.TypeAssetLogoFile, file.TypeChainLogoFile, file.TypeDappsLogoFile, file.TypeValidatorsLogoFile:
+	case file.TypeAssetLogoFile, file.TypeChainLogoFile:
 		return []Validator{
 			{Name: "Logos size and dimension are valid", Run: s.ValidateImage},
-		}
-	case file.TypeAssetInfoFile:
-		return []Validator{
-			jsonValidator,
-			{Name: "Asset info file is valid", Run: s.ValidateAssetInfoFile},
 		}
 	}
 
