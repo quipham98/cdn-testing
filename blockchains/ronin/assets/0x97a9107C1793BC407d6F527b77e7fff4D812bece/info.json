@@ -1,0 +1,30 @@
+{
+  "name": "Axie Infinity Shard",
+  "type": "ERC20",
+  "symbol": "AXS",
+  "decimals": 18,
+  "website": "https://axieinfinity.com/",
+  "description": "AXS is an governance token for the Axie universe. Holders will shape the future of Axie Infinity by signaling their support for upgrades to the ecosystem and directing usage of a Community Treasury.",
+  "explorer": "https://app.roninchain.com/token/0x97a9107c1793bc407d6f527b77e7fff4d812bece",
+  "status": "active",
+  "id": "0x97a9107C1793BC407d6F527b77e7fff4D812bece",
+  "links": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/AxieInfinity"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/axieinfinity"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.gg/axie"
+    },
+    {
+      "name": "source_code",
+      "url": "https://github.com/axieinfinity/ronin-smart-contracts"
+    }
+  ],
+  "tags": ["axie", "axs"]
+}
