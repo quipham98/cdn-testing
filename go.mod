@@ -7,7 +7,6 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/trustwallet/assets-go-libs v0.3.7
 	github.com/trustwallet/go-libs v0.3.13
-	github.com/trustwallet/go-primitives v0.0.76
 )
 
 require (
@@ -24,6 +23,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.10.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
+	github.com/trustwallet/go-primitives v0.1.18 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/image v0.5.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
